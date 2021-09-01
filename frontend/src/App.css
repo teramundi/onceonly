@@ -1,0 +1,91 @@
+
+textarea {
+    resize: vertical;
+}
+
+.container {
+    max-width: 980px !important;
+}
+
+.chars-counter {
+    bottom: 10px;
+    right: 8px;
+    position: absolute;
+    z-index: 999;
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    text-align: right;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+
+@media (max-width: 576px) {
+    h1, h2 {
+        text-align: center !important;
+    }
+}
+
+h1 img {
+    width: 180px;
+}
+
+.btn-primary {
+    background-color: #000 !important;
+    border-color: #333 !important;
+}
+
+.btn-primary:hover {
+    background-color: #333 !important;
+    border-color: #000 !important;
+}
+
+header .language select {
+    max-width: 150px;
+}
+
+nav {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a svg {
+    margin-right: 5px;
+}
+
+footer {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.card .btn-clipboard {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.faq {
+    padding: 2rem 1rem;
+}
+
+.faq details {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.faq details summary {
+    font-weight: 600;
+}
+
+.faq details p {
+    color: #333;
+}
